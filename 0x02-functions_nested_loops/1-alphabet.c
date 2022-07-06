@@ -1,3 +1,5 @@
+#include "main.c"
+
 /**
  * print_alphabet - Print the alphabet in lowercase.
  *
