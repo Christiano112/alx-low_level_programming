@@ -33,4 +33,19 @@ int main(void)
 				a2 = a2 / 1000000000;
 				c = 0;
 			}
+			fn2 = (n1 + n2);
+			fn = a1 + a2 + (fn2 / 1000000000);
+			printf(", %ld", fn);
+			printf("%ld", fn2 % 1000000000);
+			a1 = a2;
+			n1 = n2;
+			n2 = fn;
+			n2 = (fn2 % 1000000000);
+		}
+		if (((a1 + a2) < 0) && b == 1)
+			b = 0;
+	}
+	printf("\n");
+	return (0);
+}
 
