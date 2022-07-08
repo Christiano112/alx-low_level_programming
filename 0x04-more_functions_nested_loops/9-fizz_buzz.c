@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int i;
+	int n;
 
 	n = 1;
 	printf("%d", n);
