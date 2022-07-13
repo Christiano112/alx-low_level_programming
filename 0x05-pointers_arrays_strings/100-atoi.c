@@ -11,7 +11,7 @@ int _atoi(char *s)
 
 	while (*(s + count) != '\0')
 	{
-		if (size > 0 && (*(s + count) < '0' || *(s count) > '9'))
+		if (size > 0 && (*(s + count) < '0' || *(s + count) > '9'))
 			break;
 
 		if (*(s + count) == '-')
@@ -28,7 +28,7 @@ int _atoi(char *s)
 
 	for (i = count - size; i < count; i++)
 	{
-		a = a + ((*(s + i) - 48) * m);
+		a = a + ((*(s + i) - 48) * c);
 		c /= 10;
 	}
 	return (a * b);
