@@ -4,10 +4,10 @@
  * wildcmp - compares two strings
  * @s1: first string
  * @s2: second string
- * Return: 1 if strings are identical, else 0
+ * Return: 1 if strings are identical, 0 if it is not
  */
 
-int wildcmp(char *s1, char*s2)
+int wildcmp(char *s1, char *s2)
 {
 	if (*s2 == '*' && *(s2 + 1) != '\0' && *s1 == '\0')
 		return (0);
