@@ -1,11 +1,4 @@
 !<arch>
-//                                              22        `
-create_static_lib.sh/
-/0              0           0     0     644     43        `
-#!/bin/bash
-gcc -c *.c
-ar -rc liball.a *.o
-
 main.h/         0           0     0     644     693       `
 #ifndef _MAIN_H_
 #define _MAIN_H_
@@ -33,5 +26,3 @@ char *_strstr(char *haystack, char *needle);
 
 #endif
 
-README.md/      0           0     0     644     34        `
-Static libraries in C Programming
