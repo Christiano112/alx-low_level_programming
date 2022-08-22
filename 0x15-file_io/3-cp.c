@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * error_file - checks if files can be opened
- * @file_from: file_from
- * #file_to: file_to
- * @argv: argument vector
+ * error_file - checks if files can be opened.
+ * @file_from: file_from.
+ * @file_to: file_to.
+ * @argv: argument vector.
  * Return: no return
  */
 
