@@ -3,12 +3,12 @@
 /**
  * create_file - creates a file
  * @filename: filename
- * @text-content: content writed in the file
+ * @text_content: content writed in the file
  *
  * Return: 1 if successful, else -1
  */
 
-int create_file(const char *filename, char *text_cotent)
+int create_file(const char *filename, char *text_content)
 {
 	int fd;
 	int nletters;
